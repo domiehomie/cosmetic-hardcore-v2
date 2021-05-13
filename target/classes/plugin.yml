@@ -1,0 +1,15 @@
+main: live.mufin.cosmetichardcore.Main
+author: mufinlive
+name: CosmeticHardcore
+version: 2.0
+prefix: CH
+description: Adds a cosmetic hardcore/ironman feature into your server!
+website: https://mufin.live/
+
+commands:
+  chrl:
+    description: Reloads the applicable files.
+    usage: /<command>
+  setlives:
+    description: Sets a player's lives.
+    usage: /<command> <player> <lives>

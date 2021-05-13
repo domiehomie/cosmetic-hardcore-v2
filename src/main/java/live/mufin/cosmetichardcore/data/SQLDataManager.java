@@ -72,7 +72,7 @@ public class SQLDataManager {
 
     public void setLives(UUID uuid, int lives) {
         try{
-            PreparedStatement ps = plugin.sql.getConnection().prepareStatement("UPDATE profiledata SET LIVES=? WHERE UUID=?");
+            PreparedStatement ps = plugin.sql.getConnection().prepareStatement("UPDATE lives SET LIVES=? WHERE UUID=?");
             ps.setInt(1, lives);
             ps.setString(2, uuid.toString());
             ps.executeUpdate();

@@ -28,6 +28,7 @@ public class SetLivesCommand implements CommandExecutor {
                         break;
                     case FILE:
                         plugin.fileManager.getConfig().set(target.getUniqueId() + ".lives", lives);
+                        plugin.fileManager.saveConfig();
                         break;
                     case NBT:
                         target.getPersistentDataContainer().set(plugin.key, PersistentDataType.INTEGER, lives);

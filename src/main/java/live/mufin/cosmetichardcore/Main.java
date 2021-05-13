@@ -44,6 +44,7 @@ public class Main extends JavaPlugin {
         } else if (dataHandler.type == DataType.DATABASE) {
             try {
                 sql.connect();
+                this.sqlGetter.createTable();
                 console.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&4CH&8] &7Database connection &aSUCCESS"));
             } catch (ClassNotFoundException |  SQLException e) {
                 console.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&4CH&8] &7Database connection &cFAILED"));
