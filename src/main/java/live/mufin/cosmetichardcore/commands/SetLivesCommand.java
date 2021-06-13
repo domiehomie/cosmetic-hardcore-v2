@@ -19,6 +19,8 @@ public class SetLivesCommand implements CommandExecutor {
 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (label.equalsIgnoreCase("setlives")) {
+            if(!sender.hasPermission("cosmetichardcore.setlives")) return true;
+            if(args.length != 2) return true;
             try {
                 Player target = Bukkit.getPlayer(args[0]);
                 int lives = Integer.parseInt(args[1]);

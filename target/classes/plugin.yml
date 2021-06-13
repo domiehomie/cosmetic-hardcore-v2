@@ -10,6 +10,10 @@ commands:
   chrl:
     description: Reloads the applicable files.
     usage: /<command>
+    permission: cosmetichardcore.reload
+    permission-message: §7You need the §ccosmetichardcore.reload§7 permission for that.
   setlives:
     description: Sets a player's lives.
     usage: /<command> <player> <lives>
+    permission: cosmetichardcore.setlives
+    permission-message: §7You need the §ccosmetichardcore.reload§7 permission for that.

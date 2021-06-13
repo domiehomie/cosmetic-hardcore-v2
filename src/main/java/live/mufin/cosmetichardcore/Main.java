@@ -8,6 +8,7 @@ import live.mufin.cosmetichardcore.data.SQLDataManager;
 import live.mufin.cosmetichardcore.events.ChatEvent;
 import live.mufin.cosmetichardcore.events.DeathEvent;
 import live.mufin.cosmetichardcore.events.JoinEvent;
+import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.NamespacedKey;
@@ -27,13 +28,14 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         // Save overall config
         this.saveDefaultConfig();
+        this.registerBStats();
 
         this.dataHandler = new DataHandler(this);
         this.fileManager = new PlayerDataManager(this);
         this.sql = new MySQL(this);
         this.sqlGetter = new SQLDataManager(this);
 
-        this.key = new NamespacedKey(this, "lives");
+        key = new NamespacedKey(this, "lives");
 
         CommandSender console = Bukkit.getConsoleSender();
         console.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&4CH&8] ======================================="));
@@ -69,5 +71,10 @@ public class Main extends JavaPlugin {
         FILE, NBT, DATABASE
     }
 
+
+    public void registerBStats() {
+        int id = 11675;
+        Metrics metrics = new Metrics(this, id);
+    }
 
 }

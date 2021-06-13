@@ -1,8 +1,14 @@
-![Discord](https://img.shields.io/discord/834868774909378572?label=Join%20discord) ![GitHub](https://img.shields.io/github/license/mufinlive/cosmetic-hardcore-v2)
+[![Discord](https://img.shields.io/discord/834868774909378572?label=Join%20discord)](discord.gg/wvNER5fgeM) ![GitHub](https://img.shields.io/github/license/mufinlive/cosmetic-hardcore-v2)
 
 # Cosmetic Hardcore
 
 Cosmetic Hardcore is a fake hardcore gamemode for your players. It is most useful for SMP servers, where you want to give players an extra challenge, but if they die, you still want them to be able to play. It is also highly configurable from the config.yml.
+
+
+
+
+
+
 
 ```yaml
 ############################################################################

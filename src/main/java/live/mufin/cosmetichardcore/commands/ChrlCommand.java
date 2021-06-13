@@ -11,6 +11,7 @@ public class ChrlCommand implements CommandExecutor {
     public ChrlCommand(Main plugin) {this.plugin = plugin;}
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if(label.equalsIgnoreCase("chrl")) {
+            if(!sender.hasPermission("cosmetichardcore.reload")) return true;
             if(plugin.dataHandler.type == Main.DataType.FILE) {
                 plugin.fileManager.reloadConfig();
                 plugin.reloadConfig();

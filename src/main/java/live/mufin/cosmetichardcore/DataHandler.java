@@ -9,7 +9,7 @@ import org.bukkit.persistence.PersistentDataType;
 public class DataHandler  {
 
     private Main plugin;
-    public Main.DataType type;
+    public static Main.DataType type;
     public DataHandler(Main plugin) {
         this.plugin = plugin;
         try {
