@@ -1,0 +1,11 @@
+/home/muffin/Documents/Programmeren/CH/src/main/java/live/mufin/cosmetichardcore/DataHandler.java
+/home/muffin/Documents/Programmeren/CH/src/main/java/live/mufin/cosmetichardcore/commands/ChrlCommand.java
+/home/muffin/Documents/Programmeren/CH/src/main/java/live/mufin/cosmetichardcore/data/PlayerDataManager.java
+/home/muffin/Documents/Programmeren/CH/src/main/java/live/mufin/cosmetichardcore/data/SQLDataManager.java
+/home/muffin/Documents/Programmeren/CH/src/main/java/live/mufin/cosmetichardcore/events/ChatEvent.java
+/home/muffin/Documents/Programmeren/CH/src/main/java/live/mufin/cosmetichardcore/API.java
+/home/muffin/Documents/Programmeren/CH/src/main/java/live/mufin/cosmetichardcore/events/JoinEvent.java
+/home/muffin/Documents/Programmeren/CH/src/main/java/live/mufin/cosmetichardcore/data/MySQL.java
+/home/muffin/Documents/Programmeren/CH/src/main/java/live/mufin/cosmetichardcore/Main.java
+/home/muffin/Documents/Programmeren/CH/src/main/java/live/mufin/cosmetichardcore/commands/SetLivesCommand.java
+/home/muffin/Documents/Programmeren/CH/src/main/java/live/mufin/cosmetichardcore/events/DeathEvent.java

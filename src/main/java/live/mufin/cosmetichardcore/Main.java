@@ -9,6 +9,8 @@ import live.mufin.cosmetichardcore.events.ChatEvent;
 import live.mufin.cosmetichardcore.events.DeathEvent;
 import live.mufin.cosmetichardcore.events.JoinEvent;
 import org.bstats.bukkit.Metrics;
+import org.bstats.charts.CustomChart;
+import org.bstats.json.JsonObjectBuilder;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.NamespacedKey;

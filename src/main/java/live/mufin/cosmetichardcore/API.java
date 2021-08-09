@@ -22,6 +22,10 @@ public class API {
                 break;
         }
 
-        return 0;
+        return -1;
+    }
+
+    public static void setLives(Player p) {
+
     }
 }
