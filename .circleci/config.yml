@@ -41,3 +41,4 @@ workflows:
   sample: 
     jobs:
       - build-and-test
+      - package-jar
