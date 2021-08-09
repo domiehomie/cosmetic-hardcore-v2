@@ -31,7 +31,7 @@ jobs:
           name: Package
           command: mvn package
       - store_artifacts:
-          path: ./target
+          path: ./target/*.jar
 
 workflows:
   # Below is the definition of your workflow.
