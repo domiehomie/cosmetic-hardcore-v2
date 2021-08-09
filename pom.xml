@@ -40,7 +40,7 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>cosmetic-hardcore</finalName>
+        <finalName>${project.artifactId}-${project.version}</finalName>
     </build>
          
     <dependencies>
