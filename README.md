@@ -49,3 +49,7 @@ defaultlives: 1
 
 `cosmetichardcore.reload` - `/chrl` - Reloads the config files used.
 
+## API
+
+Api docs will be available soon.
+
