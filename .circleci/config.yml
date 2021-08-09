@@ -33,7 +33,7 @@ jobs:
           command: mvn package
       - store_artifacts:
           path: ./target
-          destination: "*.jar"
+          destination: "cosmetic-hardcore.jar"
 
 
 workflows:
