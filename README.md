@@ -1,4 +1,4 @@
-[![Discord](https://img.shields.io/discord/834868774909378572?label=Join%20discord)](discord.gg/wvNER5fgeM) ![GitHub](https://img.shields.io/github/license/mufinlive/cosmetic-hardcore-v2)
+[![Discord](https://img.shields.io/discord/834868774909378572?label=Join%20discord)](discord.gg/wvNER5fgeM) ![GitHub](https://img.shields.io/github/license/mufinlive/cosmetic-hardcore-v2) ![TeamCity build status](https://tc.mufin.live/app/rest/builds/buildType:id:CosmeticHardcoreV2_Build/statusIcon.svg)
 
 # Cosmetic Hardcore
 
